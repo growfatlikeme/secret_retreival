@@ -10,9 +10,7 @@ IAM Role for ec2 to assume, with the policy permitting 2 action "secretsmanager:
 
 ---
 
-**AWS Secrets Manager ARNs FORMAT**
-
-arn:aws:secretsmanager:<region>:<account-id>:secret:<secret-name>-<random-suffix>
+arn:aws:secretsmanager:[region]:[account-id]:secret:[secret-name]-[random-suffix]
 
 ---
 
