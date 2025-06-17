@@ -4,9 +4,7 @@
 
 IAM Role for ec2 to assume, with the policy permitting 2 action "secretsmanager:GetSecretValue" and "secretsmanager:ListSecrets" (optional or remove if not required) to the specific secret ARN.
 
-## Derive the IAM policy (i.e. JSON)?
-
-## Using the secret name prod/cart-service/credentials, derive a sensible ARN as the specific resource for access
+## Derive the IAM policy (i.e. JSON) using the secret name prod/cart-service/credentials as example
 
 ---
 
